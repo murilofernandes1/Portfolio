@@ -3,5 +3,9 @@ export const metadata: Metadata = {
   title: "Meus projetos",
 };
 export default function Projects() {
-  return <h1>Projects</h1>;
+  return (
+    <div className="container">
+      <h1>Projetos</h1>
+    </div>
+  );
 }

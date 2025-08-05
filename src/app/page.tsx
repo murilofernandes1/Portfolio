@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import "../app/styles/home.css";
 export const metadata: Metadata = {
   title: "Murilo Fernandes Vaz",
   openGraph: {
@@ -8,7 +9,10 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <h1>Página Home</h1>
+      <div className="container">
+        <h1>Murilo Fernandes Vaz</h1>
+        <h2>Desenvolvedor Front End</h2>
+      </div>
     </>
   );
 }

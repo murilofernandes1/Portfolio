@@ -1,14 +1,11 @@
-html {
-  background-color: #181818;
-  color: #dadada;
-  height: 50vh;
-}
-h1 {
-  font-weight: 900;
-}
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 75vh;
   flex-direction: column;
+}
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
 }
