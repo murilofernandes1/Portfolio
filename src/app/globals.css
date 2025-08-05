@@ -1,14 +1,19 @@
 html {
-  background-color: #181818;
-  color: #dadada;
-  height: 50vh;
+  background: #000000;
+  background: linear-gradient(
+    107deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(66, 66, 71, 1) 100%
+  );
+  color: white;
 }
-h1 {
-  font-weight: 900;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   flex-direction: column;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
 }

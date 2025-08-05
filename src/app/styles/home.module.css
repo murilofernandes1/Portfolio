@@ -1,0 +1,11 @@
+.container {
+  text-align: center;
+  padding-top: 50px;
+}
+.title {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.subtitle {
+  font-weight: 400;
+}
