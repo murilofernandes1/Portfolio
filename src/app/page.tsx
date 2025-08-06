@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <div className={styles.container}>
-        <h1 className={styles.title}>Murilo Fernandes Vaz</h1>
+        <h1 className={styles.title}>MURILO</h1>
         <h2 className={styles.subtitle}>Front End Developer</h2>
       </div>
     </>
