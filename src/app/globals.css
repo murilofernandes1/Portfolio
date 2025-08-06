@@ -1,9 +1,11 @@
 html {
-  background: #000000;
+  background: #020024;
   background: linear-gradient(
-    107deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(66, 66, 71, 1) 100%
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 12%,
+    rgba(5, 103, 183, 1) 65%,
+    rgba(0, 212, 255, 1) 100%
   );
   color: white;
 }

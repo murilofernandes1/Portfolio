@@ -13,6 +13,9 @@ export function Header() {
       <Link className={styles.routes} href="/contact">
         Contact
       </Link>
+      <Link className={styles.routes} href="/about">
+        About Me
+      </Link>
     </header>
   );
 }

@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.text}>
-        Murilo Fernandes Vaz. Todos direitos reservados
+        © 2025 Murilo Fernandes Vaz. Todos os direitos reservados.
       </p>
     </footer>
   );

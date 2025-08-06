@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <div className={styles.container}>
         <h1 className={styles.title}>Murilo Fernandes Vaz</h1>
-        <h2 className={styles.subtitle}>Desenvolvedor Front End</h2>
+        <h2 className={styles.subtitle}>Front End Developer</h2>
       </div>
     </>
   );
