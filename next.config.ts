@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
       { hostname: "cdn.jsdelivr.net" },
       { hostname: "cdn.simpleicons.org" },
       { hostname: "raw.githubusercontent.com" },
+      { hostname: "www.svgrepo.com"}
     ],
   },
 };

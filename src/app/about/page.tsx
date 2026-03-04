@@ -10,14 +10,8 @@ export default function About() {
         <div className={styles.card}>
           <h3>Quem sou eu?</h3>
           <p>
-            Meu nome é Murilo, tenho 19 anos e atuo com desenvolvimento de
-            software há cerca de 2 anos. Atualmente estou no 3º semestre de
-            Análise e Desenvolvimento de Sistemas na UniAnchieta. Sempre fui
-            apaixonado por tecnologia e encontrei no desenvolvimento uma forma
-            de transformar ideias minhas e de outras pessoas em soluções reais
-            (nesse caso, digitais). No momento estou buscando minha primeira
-            oportunidade profissional, enquanto me especializo ainda mais
-            tecnicamente.
+           Meu nome é Murilo, tenho 20 anos e atuo profissionalmente como Desenvolvedor Front End Jr. Atualmente estou cursando Análise e Desenvolvimento de Sistemas na UniAnchieta. 
+
           </p>
         </div>
 

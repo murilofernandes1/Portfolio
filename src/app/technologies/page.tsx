@@ -39,6 +39,18 @@ const techs = [
     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
   },
   {
+    name: "Docker",
+    icon: "https://www.svgrepo.com/show/448221/docker.svg",
+  },
+  {
+    name: "Git",
+    icon: "https://www.svgrepo.com/show/452210/git.svg"
+  },
+  {
+    name: "Linux",
+    icon: "https://www.svgrepo.com/show/448236/linux.svg"
+  },
+  {
     name: "Prisma",
     icon: "https://www.svgrepo.com/show/354210/prisma.svg",
   },
