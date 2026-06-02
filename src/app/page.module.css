@@ -20,11 +20,9 @@
   font-family: var(--font-inter), sans-serif;
   font-size: clamp(4rem, 8vw, 7rem);
   font-weight: 900;
-
   line-height: 0.85;
-  letter-spacing: -0.05em;
-
   color: rgba(255, 255, 255, 0.95);
+
 }
 
 .name {

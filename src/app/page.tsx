@@ -86,10 +86,10 @@ export default function Home() {
               </p>
 
               <div className={styles.techGroup}>
-                <SiNestjs color={"#ff4438"} size={20} />
-                <SiMysql color={"#ff4438"} size={20} />
-                <SiPrisma color={"#ff4438"} size={20} />
-                <SiRedis color={"#ff4438"} size={20} />
+                <SiNestjs color={"#ff4438"} size={30} />
+                <SiMysql color={"#ff4438"} size={30} />
+                <SiPrisma color={"#ff4438"} size={30} />
+                <SiRedis color={"#ff4438"} size={30} />
               </div>
             </div>
 
@@ -98,17 +98,19 @@ export default function Home() {
 
           <article className={styles.projectCard}>
             <div className={styles.projectInfo}>
-              <h3>Virtual Ticket Platform</h3>
+              <h3>Catched</h3>
 
               <p>
-                Plataforma para venda de ingressos com geração de QR Code,
-                pagamentos e painel administrativo.
+                Mobile application for cat identification using a FastAPI
+                microservice and the MegaDescriptor-T-224 model, specialized in
+                animal recognition.
               </p>
 
-              <div className={styles.projectStack}>
-                <span>Next.js</span>
-                <span>NestJS</span>
-                <span>PostgreSQL</span>
+              <div className={styles.techGroup}>
+                <SiReact color={"#ff4438"} size={30} />
+                <SiNodedotjs color={"#ff4438"} size={30} />
+                <SiFastapi color={"#ff4438"} size={30} />
+                <SiPrisma color={"#ff4438"} size={30} />
               </div>
             </div>
 
