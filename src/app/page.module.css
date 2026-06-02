@@ -33,7 +33,7 @@
 
 .eyebrow {
   margin-top: 20px;
-
+  margin-bottom: 20px;
   font-family: var(--font-inter), sans-serif;
   font-size: 0.95rem;
   font-weight: 500;
@@ -62,7 +62,7 @@
   width: 100%;
   padding: 20px 0;
   overflow: hidden;
-
+  margin-top: 30px;
   mask-image: linear-gradient(
     to right,
     transparent,
@@ -92,7 +92,7 @@
   display: flex;
   align-items: center;
   gap: 3rem;
-
+  margin-top: 30px;
   padding-right: 3rem;
 
   flex-shrink: 0;
@@ -268,8 +268,8 @@ color: #FFFF;
 }
 
 .aboutContent {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  display: flex;
+  flex-direction: row;
   gap: 4rem;
 }
 
@@ -302,7 +302,73 @@ color: #FFFF;
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.05);
 }
+.experienceColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
 
+.experienceCard {
+  padding: 2rem;
+
+  background: rgba(255, 255, 255, 0.02);
+
+  border-radius: 24px;
+
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.04),
+    0 10px 30px rgba(0, 0, 0, 0.15);
+
+  transition: all 0.25s ease;
+}
+
+.experienceCard:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 68, 56, 0.2),
+    0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.experiencePeriod {
+  display: block;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+  color: #ff4438;
+}
+
+.experienceRole {
+  margin-top: 1rem;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.experienceCompany {
+  display: block;
+
+  margin-top: 0.35rem;
+
+  font-size: 0.95rem;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.experienceDescription {
+  margin-top: 1rem;
+
+  line-height: 1.7;
+  font-size: 0.95rem;
+
+  color: rgba(255, 255, 255, 0.7);
+}
 .statValue {
   display: block;
 
@@ -321,7 +387,12 @@ color: #FFFF;
 .contact {
   padding: 8rem 0;
 }
-
+.iconContact{
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .contactDescription {
   max-width: 600px;
   margin-top: 1rem;

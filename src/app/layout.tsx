@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "<mfv/>",
+  title: "Murilo Fernandes Vaz | Portfolio",
 };
 
 export default function RootLayout({

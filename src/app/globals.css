@@ -1,13 +1,42 @@
-
-html{
-  background-color: #192231;
+html {
   scroll-behavior: smooth;
 }
 
 body {
+  background-color: #192231;
   font-family: var(--font-inter), sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.07em;
+}
+
+p,
+a,
+button,
+input,
+textarea,
+label,
+span,
+li {
+  letter-spacing: -0.06em;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
