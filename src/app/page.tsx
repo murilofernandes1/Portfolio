@@ -54,13 +54,17 @@ export default function Home() {
         </h1>
         <div className={styles.techSlider}>
           <div className={styles.techTrack}>
-            {techs.map((Icon, index) => (
-              <Icon key={index} size={34} />
-            ))}
+            <div className={styles.techGroup}>
+              {techs.map((Icon, index) => (
+                <Icon key={index} size={34} />
+              ))}
+            </div>
 
-            {techs.map((Icon, index) => (
-              <Icon key={`clone-${index}`} size={34} />
-            ))}
+            <div className={styles.techGroup}>
+              {techs.map((Icon, index) => (
+                <Icon key={`clone-${index}`} size={34} />
+              ))}
+            </div>
           </div>
         </div>
       </section>

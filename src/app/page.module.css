@@ -82,13 +82,31 @@
 
 .techTrack {
   display: flex;
+  width: max-content;
+
+  animation: marquee 20s linear infinite;
+  will-change: transform;
+}
+
+.techGroup {
+  display: flex;
   align-items: center;
   gap: 3rem;
 
-  width: max-content;
+  padding-right: 3rem;
 
-  animation: scroll 30s linear infinite;
+  flex-shrink: 0;
 }
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
 
 .techTrack svg {
   color: rgba(255, 255, 255, 0.65);
