@@ -7,58 +7,17 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.02);
   border-radius: 30px;
   height: 30px;
   margin: 50px auto; 
   box-shadow: 0 0 0 0.5px rgba(255, 68, 56, 0.5);
 }
 
-.leftSection {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
 
-.logoWrapper {
-  text-decoration: none;
-  z-index: 1001;
-}
 
-.logoBox {
-  padding: 6px 12px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
 
-.logoText {
-  color: #fff;
-  font-weight: 800;
-  font-size: 18px;
-  letter-spacing: -0.02em;
-}
 
-.logoBracket {
-  color: rgba(255, 255, 255, 0.2);
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.socialLinks {
-  display: flex;
-  gap: 16px;
-}
-
-.iconLink {
-  color: rgba(255, 255, 255, 0.4);
-  transition: all 0.2s ease;
-}
-
-.iconLink:hover {
-  color: #fff;
-  transform: translateY(-2px);
-}
 
 
 

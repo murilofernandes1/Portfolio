@@ -60,27 +60,6 @@ export default function Header() {
             Blog
           </Link>
         </div>
-
-        {/* <Link
-            href="https://github.com/murilofernandes1"
-            target="_blank"
-            className={styles.iconLink}
-          >
-            <Github size={20} />
-          </Link>
-          <Link
-            href="https://www.linkedin.com/in/murilofernandesdev/"
-            target="_blank"
-            className={styles.iconLink}
-          >
-            <Linkedin size={20} />
-          </Link>
-          <Link
-            href="mailto:murilofernandesvaz4@gmail.com"
-            className={styles.iconLink}
-          >
-            <Mail size={20} />
-          </Link> */}
       </header>
     </>
   );

@@ -7,7 +7,8 @@ export default function Footer() {
       <div className={styles.container}>
         <p className={styles.name}>
           © {new Date().getFullYear()} <span className={styles.dot}>•</span>{" "}
-          Desenvolvido por Murilo Fernandes Vaz
+          <span>Developed by {""}</span>
+          <span className={styles.redName}>Murilo Fernandes Vaz</span>
         </p>
       </div>
     </footer>
