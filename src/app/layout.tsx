@@ -1,57 +1,40 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import Silk from "../components/Silk";
 import "./globals.css";
-import Header from "@/components/header/header";
-import Footer from "@/components/footer/footer";
-import NavBar from "@/components/left-navbar/navbar";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "<mfv/>",
+const title = "murilo fernandes vaz — portfolio";
+const description = "software engineer working on full-stack applications for mobile and desktop. experience, education and contact details.";
+const socialImage = {
+  url: "/social-preview.png",
+  width: 1200,
+  height: 630,
+  alt: "murilo fernandes vaz — illustrated portrait with blue, red and green lettering",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="pt-br" className={inter.variable}>
-      <body className={`${inter.variable} antialiased relative`}>
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            zIndex: -1,
-            pointerEvents: "none",
-          }}
-        >
-          <Silk
-            speed={0.4}
-            scale={0.2}
-            color="#4c4a4c"
-            noiseIntensity={1.8}
-            rotation={0}
-          />
-        </div>
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  title,
+  description,
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "/",
+    siteName: "murilo fernandes vaz",
+    title,
+    description,
+    images: [socialImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: [socialImage],
+  },
+};
 
-        <div className="relative z-10 min-h-screen flex flex-col animate-in fade-in duration-1000">
-          <Header />
-          <div className="flex flex-1">
-            <NavBar />
-            <main className="flex-1">{children}</main>
-          </div>
-          <Footer />
-        </div>
-      </body>
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
     </html>
   );
 }
